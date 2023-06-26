@@ -1,0 +1,64 @@
+/* 
+Giovanni Garrido
+ID 228724 */
+
+/* DOCUMENTO CSS */
+
+/* ELIMINA MARGENES Y RELLENOS */
+* {
+    magin:0px;
+    padding: 0px;
+    
+}
+
+body {
+    background: #00ff0056;
+}
+
+/* "padding" es un relleno que altera el ancho de los elementos, sobre todo de las cajas */
+h1 {
+    text-align: center;
+    /* padding: 20px 0px 20px 0px; arriba, derecha, abajo, izquierda */
+    padding: 20px 0px; /*arriba y abajo, izquierda y derecha*/
+    background-color: #42a142;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.caja{
+    /* modifica la manera en que el navegador interpreta los elementos HTML */
+    display: block;
+    width: 90%;
+    min-height: 1px;
+    margin: 15px,auto;
+    padding: 15px 0px 15px 50px;
+
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+/* "#" selector de id´s */
+/*los selesctores id se pueden aplicar una sola vez */
+#rojo {
+    background-color: red;
+}
+
+.imagen {
+    margin: auto;
+    display: block;
+}
+
+.rojo{
+    background-color: red;
+}
+
+
+/* selector desendiente, utilizan herencia */
+.contenido p{
+    padding: 20px 15px;
+    line-height: 1.5;
+    /*  */
+    font-size: 1.3em;
+
+
+}

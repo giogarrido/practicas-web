@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<!-- 
+    Giovanni Garrido
+    ID:228724
+    08/06/23
+ -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios2</title>
+</head>
+
+<body>
+
+    <!-- reto,emocion, espectativa, humor -->
+
+    <header class="cabecera">
+        
+        
+
+    </header>
+
+    <section class="contenido">
+
+        <!-- imagen que refuerza mensaje -->
+        <div>
+
+                        <!-- titulo corto ultil y llamar la atencion -->
+
+            <h1>"Risas Desatadas: El Show Más Loco de la Televisión"</h1>
+            <p>¡Prepárate para reír sin control en "Risas Desatadas: El Show Más Loco de la Televisión"! </p>
+            <p>¿Estás listo para una dosis intensa de carcajadas desenfrenadas? No te puedes perder el programa más
+                divertido y disparatado de todos los tiempos. "Risas Desatadas" llega a tu pantalla para hacerte
+                estallar de risa y sacarte más de una carcajada incontrolable.</p>
+            <p>En "Risas Desatadas" encontrarás sketches hilarantes, imitaciones descabelladas, monólogos
+                desternillantes y momentos de improvisación que te dejarán sin aliento. Además, tendremos invitados
+                sorpresa que se sumarán a la locura y garantizarán risas interminables.</p>
+
+
+            <img height="300"   src="/img/risasdesatadas.png" alt="logo">
+
+
+
+
+        </div>
+
+        <div>
+
+            <h2>Registrate con nosotros: </h2>
+
+            <!-- "method" manera en que se va enviar el cotenido-->
+            <!-- "action" a donde se va enviar-->
+            <!-- "#" no lleva a ninguna parte -->
+            <form action="#" method="post">
+
+                <!-- "for" para quien-->
+
+                <!--                 <label for="nombre">Nombre: 
+                    <input type="text" name="nombre" id="nombre">
+                </label> -->
+
+                <!-- <b> solo pone en negrita <strong> representa algo importante para el motor de busqueda -->
+
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                <br>
+                <input type="tel" name="telefono" placeholder="Teléfono 10 digitos" maxlength="10" minlength="10">
+                <br>
+                <input type="email" name="email" placeholder="email">
+                <br>
+
+                <br>
+                <br>
+
+                <label style="margin-left: 28px" for="cumpleaniosId">Fecha de nacimiento: </label>
+                <input type="date" id="cumpleaniosId" name="cumpleanios" />
+                <br /> <br />
+
+                <fieldset style="margin-left: 60px;width: 200px">
+                    <legend>Sexo:</legend>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre" />
+                    <label for="hombre">Hombre</label>
+                    <br />
+                    <input type="radio" id="mujer" name="sexo" value="Mujer" />
+                    <label for="mujer">Mujer</label>
+                </fieldset>
+                <br />
+
+                <fieldset style="margin-left: 60px; width: 200px">
+                    <legend>Preferencias de comedia:</legend>
+                    <input type="checkbox" id="parodiaId" name="preferencia" value="parodia" />
+                    <label for="parodiaId">Parodia</label>
+                    <br />
+                    <input type="checkbox" id="negraId" name="preferencia" value="negra" />
+                    <label for="negraId">Negra</label>
+                    <br />
+                    <input type="checkbox" id="sketchId" name="preferencia" value="sketch" />
+                    <label for="skethId">Sketch</label>
+                    <br />
+                </fieldset>
+                <br />
+
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd">
+
+                <br /> <br />
+
+                <input style="margin-left: 60px" type="checkbox" id="whatsapp" name="whatsapp" />
+                <label for="whatsapp"> Acepto T&C </label>
+                <br /> <br />
+
+
+
+
+
+
+                <input type="button" value="Enviar">
+
+
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer class="pie">
+        <p>Sitio desarrollado por: Giovanni Garrido. Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>

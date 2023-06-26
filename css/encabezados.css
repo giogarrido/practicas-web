@@ -1,0 +1,56 @@
+/* DOCUMENTO CSS */
+
+/* SELECTOR UNIVERSAL */
+
+/* EL "*" INDICA TODAS LAS ETIQUETAS HTML */
+* {
+    /* margin: 0%; elimina la margen por defecto */
+    font-size: 20px;
+}
+
+
+/* Selectores de etiqueta, son selectores generales */
+body {
+    background-color: #dbfeef;
+    color: red;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+/* AGRUPACION DE SELECTORES */
+/* la "," significa "y" */
+h2, h4 {
+    color: greenyellow;
+}
+
+h3 {
+    color: violet;
+}
+
+
+h5 {
+    color: violet;
+}
+
+p {
+    color: blueviolet;
+}
+
+
+/* selector de clase, podemos dar propiedades a un elemento especifico */
+/* las clases siempre empiezan con "." */
+.atencion {
+    color: coral;
+}
+
+.izq{
+    float: left;
+    width: 200px;
+    height: auto; /* si se utiliza "auto" el navegador calcula la proporcion */
+
+}
+
+

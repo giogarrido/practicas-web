@@ -1,0 +1,75 @@
+/* 
+Giovanni Garrido
+ID 228724
+14/06/23
+ */
+
+ * {
+    margin: 0px;
+    padding: 0px;}
+
+.cabecera{
+    text-align: center;
+    min-height: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b47fbc;
+    margin-bottom: 20px;
+
+}
+
+
+
+h1{
+width: 100%;
+min-height: 1px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: #896dac;
+color: whitesmoke;
+
+}
+
+table{
+    background-color: #dafada;
+}
+.tablas{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.tablas tr:nth-child(odd){
+    background-color: #b47fbc;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.videos{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+
+}
+
+.videos h2{
+    padding: 20px 0px;
+}
+
+a:hover{
+    color: red;
+}
+
+.videos div{
+    width: 50%;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pie{}

@@ -1,0 +1,62 @@
+/* Giovanni Garrido
+ID 228724
+16/06/23
+Diseño Web */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "Arbutus";
+  font-size: 3em;
+  text-align: center;
+  line-height: 2;
+  color: rgb(1, 1, 101);
+}
+
+h2 {
+  font-family: "Arbutus";
+  font-size: 2em;
+  text-align: center;
+  line-height: 2;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+footer {
+  background-color: rgb(1, 1, 101);
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 5em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.moto{
+  margin: 40px;
+
+}

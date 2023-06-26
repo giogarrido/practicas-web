@@ -1,0 +1,47 @@
+/* 
+Giovani Garrido
+ID  228724
+Redes
+23/06/23
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header,
+section,
+footer,
+main,
+aside,
+nav,
+article,
+div {
+  box-sizing: border-box;
+}
+
+.cabecera {
+    text-align: center; 
+}
+
+.social {
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+
+}
+
+.item {
+}
+
+a.item {
+    width: 33.33%;
+    height: 400px;
+    text-align: center;
+    font-size: 10em;
+
+}

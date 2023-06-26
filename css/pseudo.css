@@ -1,0 +1,91 @@
+/* Giovanni Garrido
+ID 228724
+15/06/23
+Diseño Web */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+text-align: justify;
+}
+
+h1 {
+  font-family: 'Kablammo',cursive;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 2;
+}
+/* todos los elementos de bloque se centran con margin */
+
+#productos {
+  width: 100%;
+  min-height: 1px;
+  background-color: #e9dbf7;
+  margin: 0px;
+  padding: 30px 0px;
+}
+
+.container {
+  width: 70%;
+  min-height: 1px;
+  display: flex;
+  margin: 0px auto 0px auto;
+}
+
+.items {
+  width: 33.33%;
+  text-align: center;
+  min-height: 130px;
+  background-image: url(../img/mesa.png);
+  background-size: 100% 100%;
+}
+
+.items::after {
+  content: "Vendido";
+  display: block;
+  width: 100%;
+  padding: 8px;
+  text-transform: uppercase;
+  margin-top: 95px;
+  transform: rotate(-45deg);
+  position: relative;
+  top: -15px;
+  left: 35px;
+}
+
+.contenido {
+  padding: 35px;
+}
+
+.contenido p {
+  line-height: 1.5;
+}
+
+.contenido p::first-letter {
+  font-size: 2em;
+  float: left;
+  margin-right: 3px;
+}
+
+.contenido p{
+  background-color:chocolate;
+}
+
+p {
+  background-color: greenyellow !important;
+}
+
+body section.contenido p {
+  background-color: green;
+}
+
+section.contenido p {
+  
+}
+
+

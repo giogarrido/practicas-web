@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<!-- 
+    Giovanni Garrido
+    ID:228724
+    07/06/23
+ -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <header class="cabecera">
+
+    </header>
+
+    <section class="contenido">
+
+        <!-- "div" inserta cajas o contenedor -->
+        <div>
+
+            <h1>Título del Formulario</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo minus iusto eius cum! Velit aspernatur
+                alias, rerum perferendis fugit accusamus sint aliquid quo minima. Veniam exercitationem quaerat aperiam
+                obcaecati cumque.</p>
+
+
+        </div>
+
+        <div>
+
+            <!-- "method" manera en que se va enviar el cotenido-->
+            <!-- "action" a donde se va enviar-->
+            <!-- "#" no lleva a ninguna parte -->
+            <form action="#" method="post">
+
+                <!-- "for" para quien-->
+
+                <!--                 <label for="nombre">Nombre: 
+                    <input type="text" name="nombre" id="nombre">
+                </label> -->
+
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                <br>
+                <input type="tel" name="telefono" placeholder="Teléfono 10 digitos" maxlength="10" minlength="10">
+                <br>
+                <input type="email" name="email" placeholder="email">
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br>
+                <label for="">Elegir una opción</label>
+                <input list="lista" name="MiLista">
+                <datalist id="lista">
+                    <option value="Estudiante"></option>
+                    <option value="Egresado"></option>
+                    <option value="Empleado"></option>
+                    <option value="Visitante"></option>
+
+                </datalist>
+
+                <br>
+                <br>
+
+
+
+
+
+
+
+
+                <input type="button" value="Enviar">
+
+
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer class="pie">
+
+        <p>Giovanni Garrido   ID:228724</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/* 
+Givoanni Garrido
+ID 228724
+Practicas WEB
+ */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section,
+footer,
+main,
+aside,
+nav,
+article,
+div {
+  box-sizing: border-box;
+}
+
+.item{
+    background-color: #dcaf9f;
+}

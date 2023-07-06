@@ -1,0 +1,55 @@
+/* 
+Giovanni Garrido
+ID 228724
+Bootstrap
+26/06/23
+ */
+
+ * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header,
+  section,
+  footer,
+  main,
+  aside,
+  nav,
+  article,
+  div {
+    box-sizing: border-box;
+  }
+
+  #comida {
+    background-color: darkgray;
+  }
+
+  /* .row {
+    padding: 15px;
+    background-color: aqua;
+  }
+
+  .container {
+    padding: 15px;
+
+  }
+   */
+
+
+.items1, .items2, .items3 {
+  
+  text-align: center;
+  min-height: 160px;
+} 
+
+.items2 {
+  
+
+}
+
+.items3 {
+ 
+}
+
+

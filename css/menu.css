@@ -1,0 +1,40 @@
+/* 
+Giovanni Garrido
+ID  228724
+MENU
+29/06/2023 HBD for me!
+ */
+
+ * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header,
+  section,
+  footer,
+  main,
+  aside,
+  nav,
+  article,
+  div {
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'mulishextralight';
+    src: url('fonts/mulish-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/mulish-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.fondo-menu{
+    background-color: #414141;
+
+}
+
+.navbar-brand{
+    width: 130px;
+}
